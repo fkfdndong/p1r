@@ -1,0 +1,375 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgba(234, 198, 228, 0.2);
+
+}
+
+/*
+header{
+   background-color: rgb(183, 241, 231);
+
+}*/
+article{
+    background-color: rgb(234, 250, 247);
+
+}
+
+nav{
+	width: 100%;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+nav li{
+	list-style-type: none;
+	float: left;
+}   
+
+nav a{
+	display:inline-block;
+	text-decoration:none ;
+	padding: 20px 30px;
+	color:black;
+	text-transform: uppercase;
+	font-size: 20px;
+
+}
+.tables{
+	display: table;
+	margin: 0px auto;
+	padding-left: 200px;
+}
+
+.n1 > h1{
+    padding-left: 200px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 680px 680px;
+    grid-template-rows: 500px;
+    width: 100%;
+    padding-left: 200px;
+}
+.img1{
+    background-image: url(imagep1/primg1.jpg);
+    background-size: cover;
+    width: 100%;
+}
+.text1 > p{
+    line-height: 2px;
+}
+
+.text1 > h1{
+    line-height: 4px;
+}
+.img2{
+    display: grid;
+    grid-template-columns: 340px 340px ;
+    grid-template-rows: 250px 250px;
+    padding-left: 20px;
+    
+}
+
+.img21{
+    background-image: url(imagep1/primg2.jpg);
+    background-size: cover;
+    padding: 10px;
+}
+.img22{
+
+    background-image: url(imagep1/primg3.jpg);
+    background-size: cover;
+
+}
+
+.img23{
+    background-image: url(imagep1/primg4.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+
+.img24{
+    background-image: url(imagep1/primg5.jpg);
+    background-size: cover;
+}
+
+    .text1{
+        padding-left: 50px;
+        margin-top: 100px;
+    }
+
+
+
+    .grid2{
+    
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px;
+        grid-template-rows: 550px 550px ;
+       width: 100%;
+       padding-left: 400px;
+       
+       
+
+    }
+    .imgp{
+        display: grid;
+        grid-template-columns: 290px;
+        grid-template-rows: 420px 70px;
+        text-align: center;
+
+    }
+    .imgp > div p img{
+        height: 20px;
+
+    }
+    .imgp > div p{
+        line-height:2px ;
+    }
+
+    .imgp > div h2{
+        line-height: 2px;
+    }
+
+
+    .img3{
+         display: grid;
+         grid-template-columns: 1176px;
+         grid-template-rows: 413px;
+         background-image:url(imagep1/grid3.jpg);
+         background-size: cover;
+         width: 100%;
+         height: 413px;
+         padding-left: 180px;
+       
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         padding-bottom: -10px;
+         order: 8;
+     }
+     
+
+
+     .img3 > p{
+        z-index: 1;
+        position: relative;
+        font-size: 45px;
+}
+
+
+
+
+
+
+.grid41{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    padding-left: 200px;
+}
+
+
+.h3{
+text-decoration: underline 1px red ;
+}
+
+
+
+    .grid4{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding-left: 200px;
+    }
+    .img4{
+        display: grid;
+    
+        grid-template-columns: 50px  1fr;
+        grid-template-rows: 50px  50px 50px ;
+        padding-left: 20px;
+    }
+    .imgt > img{
+        padding-top: 40px;
+    }
+    .text2 > h6 p{
+    
+    padding-left: 20px;
+    }
+
+    .text2  > p img {
+        height: 20px;
+        padding: 1px;
+        
+    }
+
+
+    .text2 > p {
+        line-height: 2px;
+        padding-right: 40px;
+    }
+    
+    .text2 > h6{
+        line-height: 1px;
+    }
+
+    
+.grid5{
+    display: grid;
+        grid-template-columns: 390px 390px;
+       grid-template-rows: 245px;
+       padding-left: 460px;
+       padding-bottom: 50px;
+
+order: 13;
+
+}
+.img52{
+    background-image: url(imagep1/grid52.jpg);
+    background-size: cover;
+    text-align: center;
+
+}
+.img52 > h1,span{
+    color: red;
+    font-weight: bold;
+}
+
+
+.grid6{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 90px;
+
+}
+.img6{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    grid-template-rows: 1fr ;
+}
+.img6 > div img{
+    padding-top: 10px;
+
+
+}
+
+.img6 > div h3{
+    line-height: 2px;
+}
+
+.img7{
+    display: grid;
+    grid-template-columns: 169px   169px  169px  169px  169px  169px;
+    grid-template-rows: 215px;
+    padding-left: 400px;
+}
+
+
+.footer{
+    background-color:rgba(234, 198, 228, 0.2);
+   /* padding: 70px 0;*/
+    border-top: 4px solid black;
+    order: 16;
+    }
+    
+    
+    .container{
+        max-width: 1190px;
+    order: 17;
+    }
+    
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        order: 18;
+    }
+    .footer-col{
+        width: 25%;
+      /*padding: 0 15px;*/
+      order: 19;
+    }
+    .footer-col h4{
+        font-size: 20px;
+        color: black;
+        text-transform: capitalize;
+       /* margin-bottom: 35px;*/
+        font-weight: 500;
+        position: relative;
+        order: 21;
+    }
+    
+    .footer-col h4::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        left: 0;
+        bottom: -10px;
+        background-color: #e91e63;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+        order: 22;
+    }
+    
+    .footer-col ul li a:not(:last-child){
+        margin-bottom: 10px;
+        order: 23;
+    
+    }
+    .footer-col ul li a{
+        font-size: 18px;
+        text-decoration:  none;
+        font-weight: 300;
+        color: black;
+        display: block;
+        transition: all 0.s ease;
+    order: 24;
+    }
+    .footer-col ul li a:hover{
+        color: black;
+        padding-left: 10px;
+    order: 25;
+    }
+    .footer-col.social-link a{
+        display: inline-block;
+        height: 40px;
+        background-color: rgba(192, 28, 28, 0.2);
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 60px;
+        border-radius: 50%;
+        color: blue;
+        transition: all 0.5s ease;
+        order: 26;
+
+    }
+    .footer-col  .social-link a:hover{
+        color:red;
+        background-color: blue;
+        order: 27;
+    }
+    @media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-top: 30px;
+        }
+        
+    }
+    
+    @media(max-width: 574px) {
+        .footer-col .itm  {
+            width: 100%;
+            }
+        }
+
+
+
+
